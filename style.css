@@ -1,0 +1,97 @@
+
+@font-face {
+    font-family:'Staatliches';
+    src: url(Staatliches/Staatliches-Regular.ttf);
+}
+
+
+:root{
+    --branco-faiup: #E7EFF1;
+    --roxo-faiup: #1F0D41
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    height: 100vh;
+    background-image:linear-gradient(90deg, rgba(31,13,65,0.9) 0%, rgba(31,13,65,0.9) 0%, rgba(112,42,87,0.9) 100%), url(img/banner.png);
+    background-color: #1F0D41;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+    background-size: cover;
+}
+
+
+header{
+  height: 160px;
+
+}
+
+header .container-grid{
+      display: flex;
+  justify-content: space-between;
+ align-items: center;
+}
+
+.menu{
+    width: 700px;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: auto;
+   
+}
+
+.menu a{
+    color: var(--branco-faiup);
+    text-decoration: underline transparent;  
+    transition: text-decoration ease-in-out 500ms;
+    font-size: 20px;
+    font-family: 'Staatliches';
+
+}
+
+.menu a:hover{
+    text-decoration: underline;
+  
+
+}
+.menu img{
+    width: 100px;
+    margin: 20px;
+}
+
+.conteudo-banner {
+    padding: 40px;
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+}
+
+.conteudo-banner img{
+    width: 350px;
+}
+
+.conteudo-banner span{
+    color: var(--branco-faiup);
+font-family:  'Staatliches';
+font-size: 48px;
+}
+
+.sobre-a-empresa{
+    margin: 0 auto;
+    width: 80vw;
+    background-color:var(--roxo-faiup) ;
+    display: flex;
+    justify-content: center;
+}
+
+.sobre-a-empresa p{
+    width: 30%;
+    font-size: 24px;
+    color: var(--branco-faiup);
+}
