@@ -45,17 +45,25 @@ header .container-grid{
  align-items: center;
 }
 
+header .container-grid button{
+    display: none;
+}
+
 .menu{
-    padding: 20px;
+    padding: 2px;
     background: linear-gradient(90deg, rgba(231, 239, 241, 0.286) 0%, rgba(231, 239, 241, 0.095)100%);
     border-radius: 10px;
     width: 80vw;
     display: flex;
-   justify-content: space-between;
+   justify-content:space-around;
    align-items: center;
    text-align: center;
    margin: auto;
    
+}
+
+.menu svg{
+    width: 50px;
 }
 
 .menu a{
@@ -69,6 +77,8 @@ header .container-grid{
 
 .menu a:hover{
     text-decoration: underline;
+    font-size: 26px;
+    transition: ease 500ms;
   
 
 }
@@ -80,6 +90,7 @@ header .container-grid{
     margin-top: 100px;
     display: flex;
    align-items: center;
+
     flex-direction: column;
 }
 
@@ -93,15 +104,7 @@ font-family:  'Staatliches';
 font-size: 48px;
 }
 
-.conteudo-secao-sobre{
-    background-color:var(--roxo-faiup);
-    padding: 20px;
-    height: 653px;
-    width: 80vw;
-    max-height: 700px;
-    margin: 0 auto;
-    border-radius: 10px;
-}
+
 
 #sobre {
     padding-bottom: 50px;
@@ -109,6 +112,27 @@ font-size: 48px;
     margin: 0 auto;
     border-radius: 10px;
     position: relative;
+}
+
+h2{
+    font-size: 48px;
+    text-align: center;
+    margin: 60px;
+    font-family: 'Staatliches';
+    color:var(--rosa-faiup) ;
+}
+
+
+.conteudo-secao-sobre{
+    background-color:var(--roxo-faiup);
+    height: 600px;
+    width: 70vw;
+    max-height: 700px;
+    margin: 0 auto;
+    border-radius: 10px;
+   
+
+
 }
 
 .nuvem-sobre {
@@ -124,29 +148,19 @@ font-size: 48px;
     align-items: center;
 }
 
-h2{
-    font-size: 48px;
-    text-align: center;
-    margin: 60px;
-    font-family: 'Staatliches';
-    color:var(--rosa-faiup) ;
-}
-
-
-
 .sobre-a-empresa p{
-    width: 30%;
+    width: 50%;
     font-size: 24px;
     color: var(--branco-faiup);
     font-family: 'Staatliches';
-    text-align: right;
+    text-align: center;
     
    
   
 }
 
 .sobre-a-empresa img{
-    width: 550px;
+    width: 350px;
 }
 
 .botao-portfolio{
@@ -163,6 +177,7 @@ h2{
 }
 
 .botao-portfolio a{
+    text-align: center;
     text-decoration: transparent;
     font-family: 'Staatliches';
     
@@ -176,7 +191,7 @@ h2{
 
 .cases-de-sucesso{
     width: 98vw;
-    margin: 50px auto;
+    margin: 0px auto;
     position: relative;
 }
 
@@ -184,13 +199,13 @@ h2{
     width: 400px;
     position: absolute;
     top: -200px;
-    right: -2px;
+    left: 100px;
 }
 
 
 .cards{
     display: flex;
-    margin: 145px;
+    margin: 100px 145px;
 
 }
 
@@ -224,13 +239,17 @@ h2{
     margin-top: 40px ;
     color: var(--branco-faiup);
     font-family: 'Staatliches';
-    font-size: 36px;
+    font-size: 24px;
     background-color: var(--rosa-faiup);
     padding: 10px;
     text-align: center;
-    width: 294px;
-    height: 96px;
-    border-radius: 10px;
+    width: 250px;
+    height: 70px;
+    border-radius: 15px;
+}
+
+.card button:hover{
+    background-color: #67244f;
 }
 
 .card p{
@@ -270,8 +289,9 @@ right: 1px;
 
 
 .banner-formulario{
+    margin: 120px 0px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background: linear-gradient(13deg, rgba(31,13,65,1) 0%, rgba(31,13,65,1) 0%, rgba(112,42,87,1) 100%);
     height: 700px;
@@ -329,9 +349,9 @@ align-items: center;
   }
  
 .campo-textarea{
-    width: 60%;
+    width: 70%;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     display: flex;
     text-align: left;
 }
@@ -364,11 +384,12 @@ textarea{
     border-radius: 4px;
     text-transform: uppercase;
     cursor: pointer;
+    margin-top: 15px;
   
   }
 
 .nuvem-formulario{
-    width: 500px;
+    width: 600px;
     position: absolute;
     bottom: -390px;
     right: 0px;
@@ -407,7 +428,7 @@ footer{
 }
 
 .redes-sociais svg{
-    width: 60px;
+    width: 50px;
 }
 .container-grid{
     padding: 55px;

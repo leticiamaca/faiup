@@ -1,0 +1,124 @@
+@media screen and (max-width: 1530px) {
+    .conteudo-banner img{
+        width: 200px;
+    }
+
+    .nuvem-sobre{
+        display: none;
+    }
+
+    .nuvem-cases{
+        display: none;
+    }
+
+    .nuvem-banner-controles{
+        display: none;
+    }
+
+
+
+    .nuvem-contato{
+        display: none;
+    }
+
+img.nuvem-formulario{
+    display: none;
+}
+}
+
+@media screen and (max-width: 1420px) {
+    .conteudo-card{
+        width: 330px;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    .conteudo-card{
+        width: 300px;
+    }
+
+    .card img{
+        width: 80%;
+    }
+
+    .card p{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1250px){
+    .cards{
+        flex-direction: column;
+    }
+
+    .card{
+        margin-bottom: 50px;
+    }
+    .conteudo-card{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+
+    div.container-grid .sobre-a-empresa{
+        flex-direction: column;
+    }
+
+    div.sobre-a-empresa p{
+        width: 60%;
+    }
+
+    div.sobre-a-empresa img{
+        padding: 10px 0px;
+        width: 40%;
+    }
+
+    .contato{
+        width: 70%;
+    }
+    .banner-formulario img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 790px){
+    div.conteudo-banner{
+        margin: 0 auto;
+    }
+
+    header{
+        position: relative;
+    }
+    header .container-grid button{
+        display: unset;
+        width: 50px;
+        background: none;
+        border: none; position: absolute;
+        top: -300px;
+        left: 30px;
+    }
+
+    header .container-grid button svg{
+        width: 100%;
+    }
+
+    nav.menu {
+        height: 500px;
+        width: 350px;
+        padding: 0px 30px;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #000000f0;
+       
+    
+      }
+
+    .menu{
+    display: none
+    };
+
+
+}
+
+/* 680 arrumar sobre e footer colocar o sobre ocupando 100% da vw e ver como fica, aumentar a width do formulário também */
