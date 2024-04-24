@@ -23,6 +23,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #F6F2FC;
+}
 .banner{
     height: 100vh;
     background-image:linear-gradient(90deg, rgba(31,13,65,0.9) 0%, rgba(31,13,65,0.9) 0%, rgba(112,42,87,0.9) 100%), url(img/banner.png);
@@ -391,14 +395,14 @@ textarea{
 .nuvem-formulario{
     width: 600px;
     position: absolute;
-    bottom: -390px;
+    bottom: -420px;
     right: 0px;
 
 }
 
 footer{
     margin-top: 350px;
-    background-color: var(--roxo-faiup);
+    background: url(img/fundo-footer.png);
     color: #E7EFF1;
     font-family: 'Staatliches';
 }
@@ -438,6 +442,7 @@ footer{
 }
 
 .termos-e-condicoes{
+    margin-top: 50px;
     text-align: end;
 }
 

@@ -1,105 +1,109 @@
 @media screen and (max-width: 1530px) {
-    .conteudo-banner img{
+    .conteudo-banner img {
         width: 200px;
     }
 
-    .nuvem-sobre{
+    .nuvem-sobre {
         display: none;
     }
 
-    .nuvem-cases{
+    .nuvem-cases {
         display: none;
     }
 
-    .nuvem-banner-controles{
+    .nuvem-banner-controles {
         display: none;
     }
 
 
 
-    .nuvem-contato{
+    .nuvem-contato {
         display: none;
     }
 
-img.nuvem-formulario{
-    display: none;
-}
+    img.nuvem-formulario {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1420px) {
-    .conteudo-card{
+    .conteudo-card {
         width: 330px;
     }
 }
 
 @media screen and (max-width: 1360px) {
-    .conteudo-card{
+    .conteudo-card {
         width: 300px;
     }
 
-    .card img{
+    .card img {
         width: 80%;
     }
 
-    .card p{
+    .card p {
         width: 90%;
     }
 }
 
-@media screen and (max-width: 1250px){
-    .cards{
+@media screen and (max-width: 1250px) {
+    .cards {
         flex-direction: column;
     }
 
-    .card{
+    .card {
         margin-bottom: 50px;
     }
-    .conteudo-card{
+
+    .conteudo-card {
         width: 400px;
     }
 }
 
 @media screen and (max-width: 1150px) {
 
-    div.container-grid .sobre-a-empresa{
+    div.container-grid .sobre-a-empresa {
         flex-direction: column;
     }
 
-    div.sobre-a-empresa p{
+    div.sobre-a-empresa p {
         width: 60%;
     }
 
-    div.sobre-a-empresa img{
+    div.sobre-a-empresa img {
         padding: 10px 0px;
         width: 40%;
     }
 
-    .contato{
+    .contato {
         width: 70%;
     }
-    .banner-formulario img{
+
+    .banner-formulario img {
         display: none;
     }
 }
 
-@media screen and (max-width: 790px){
-    div.conteudo-banner{
+@media screen and (max-width: 790px) {
+    div.conteudo-banner {
         margin: 0 auto;
     }
 
-    header{
+    header {
         position: relative;
     }
-    header .container-grid button{
+
+    header .container-grid button {
         display: unset;
         width: 50px;
         background: none;
-        border: none; position: absolute;
+        border: none;
+        position: absolute;
         top: -300px;
         left: 30px;
     }
 
-    header .container-grid button svg{
+    header .container-grid button svg {
         width: 100%;
     }
 
@@ -110,15 +114,186 @@ img.nuvem-formulario{
         flex-direction: column;
         justify-content: space-around;
         background-color: #000000f0;
-       
-    
-      }
 
-    .menu{
-    display: none
-    };
+
+    }
+
+    .menu {
+        display: none
+    }
+
+    ;
 
 
 }
 
-/* 680 arrumar sobre e footer colocar o sobre ocupando 100% da vw e ver como fica, aumentar a width do formulário também */
+@media screen and (max-width: 680px) {
+
+    div.conteudo-banner {
+        margin-top: 60px;
+    }
+
+    #sobre {
+        width: 100vw;
+    }
+
+    .conteudo-secao-sobre {
+        border-radius: 0px;
+        width: 100%;
+    }
+
+    .conteudo-secao-sobre p {
+        width: 90%;
+    }
+
+
+    .contato {
+        width: 90%;
+    }
+
+    .banner-formulario {
+        background-image: linear-gradient(90deg, rgba(31, 13, 65, 0.9) 0%, rgba(31, 13, 65, 0.9) 0%, rgba(112, 42, 87, 0.9) 100%), url(img/gato.png);
+        background-color: #1F0D41;
+        background-size: cover;
+    }
+
+    .redes-sociais div p {
+        font-size: 20px;
+    }
+
+    #redes-sociais svg {
+        width: 50px;
+    }
+
+    .termos-e-condicoes {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .conteudo-secao-sobre .container-grid p {
+        width: 90%;
+    }
+
+    .conteudo-secao-sobre .container-grid img {
+        width: 50%;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        margin-bottom: 50px;
+    }
+
+    .conteudo-card {
+        height: 400px;
+        width: 300px;
+    }
+
+    .card img {
+        width: 60%;
+    }
+
+    .card p {
+        padding: 10px;
+        font-size: 14px;
+        width: 80%;
+    }
+
+    .cards button {
+        margin: 20px 0px 0px 0px;
+        height: 70px;
+        width: 200px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    section.cases-de-sucesso {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conteudo-banner {
+        width: 60%;
+    }
+
+    .conteudo-banner span {
+        font-size: 30px;
+    }
+
+    .conteudo-banner img {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+
+    .redes-sociais {
+        padding: 30px 0px;
+    }
+
+    footer div.container-grid {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .termos-e-condicoes {
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    section#contato{
+        margin-top: 20px;
+    }
+    h2{
+        font-size: 20px;
+        margin-top: 50px;
+        padding: 0px;
+    }
+    .conteudo-secao-sobre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conteudo-secao-sobre .container-grid{
+padding: 10px;
+margin: 0 auto;
+    }
+
+    div.sobre-a-empresa p {
+        width: 90%;
+        text-align: center;
+        font-size: 20px;
+    }
+    .botao-portfolio{
+        margin: 0px;
+width: 150px;
+    }
+
+    .campo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .campo,
+    .campo-textarea {
+        width: 90vw;
+
+    }
+
+    form.contato button {
+        width: 100px;
+    }
+}
