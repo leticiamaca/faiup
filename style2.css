@@ -61,6 +61,11 @@
 }
 
 @media screen and (max-width: 1150px) {
+    
+
+    .conteudo-banner{
+        margin-top: 100px;
+    }
 
     div.container-grid .sobre-a-empresa {
         flex-direction: column;
@@ -85,6 +90,10 @@
 }
 
 @media screen and (max-width: 790px) {
+    .banner{
+        height: 65vh;
+    }
+  
     div.conteudo-banner {
         margin: 0 auto;
     }
@@ -128,9 +137,23 @@
 }
 
 @media screen and (max-width: 680px) {
+    .banner{
+        height: 45vh;
+    }
+    header{
+        display: unset;
+        margin: 0px;
+        padding: 0px;
 
-    div.conteudo-banner {
-        margin-top: 60px;
+    }
+   
+
+    div.conteudo-banner img{
+        width: 150px;
+    }
+
+    div.conteudo-banner span{
+        font-size: 20px;
     }
 
     #sobre {
