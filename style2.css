@@ -1,4 +1,7 @@
 @media screen and (max-width: 1530px) {
+    .banner{
+        height: 100vh;
+    }
     .conteudo-banner img {
         width: 200px;
     }
@@ -99,7 +102,9 @@
     }
 
     header {
+        flex-direction: column;
         position: relative;
+        justify-content: end;
     }
 
     header .container-grid button {
@@ -111,34 +116,41 @@
         top: -300px;
         left: 30px;
     }
-
     header .container-grid button svg {
         width: 100%;
     }
 
     nav.menu {
+        position: absolute;
+        left: 0;
+        top: 130px;
         height: 500px;
         width: 350px;
         padding: 0px 30px;
         flex-direction: column;
         justify-content: space-around;
-        background-color: #000000f0;
+        background: unset;
+        background-image: linear-gradient(90deg, rgba(31, 13, 65, 0.9) 0%, rgba(31, 13, 65, 0.9) 0%, rgba(112, 42, 87, 0.9) 100%);
+        border: 2px solid white;
+
 
 
     }
 
     .menu {
-        display: none
+        flex-direction: column;
     }
 
-    ;
+    #sobre{
+        position: unset;
+    }
 
 
 }
 
 @media screen and (max-width: 680px) {
     .banner{
-        height: 45vh;
+        height: 55vh;
     }
     header{
         display: unset;
@@ -157,7 +169,11 @@
     }
 
     #sobre {
-        width: 100vw;
+        width: 98vw;
+    }
+
+    .cases-de-sucesso{
+        display: unset;
     }
 
     .conteudo-secao-sobre {
@@ -172,6 +188,10 @@
 
     .contato {
         width: 90%;
+    }
+
+    form{
+        width: 95%;
     }
 
     .banner-formulario {
@@ -194,6 +214,7 @@
 }
 
 @media screen and (max-width: 650px) {
+
     .conteudo-secao-sobre .container-grid p {
         width: 90%;
     }
@@ -234,6 +255,7 @@
 }
 
 @media screen and (max-width: 560px) {
+   
     section.cases-de-sucesso {
         margin: 0 auto;
         display: flex;
@@ -305,6 +327,20 @@ margin: 0 auto;
 width: 150px;
     }
 
+    section.banner-controles{
+        margin: 0px;
+    }
+
+    .cards{
+        margin: 0px;
+    }
+
+    .cases-de-sucesso{
+        width: 98vw;
+        margin: 0px;
+        padding: 0px;
+    }
+
     .campo {
         flex-direction: column;
         align-items: center;
@@ -312,11 +348,16 @@ width: 150px;
 
     .campo,
     .campo-textarea {
-        width: 90vw;
+        width: 85vw;
 
     }
 
     form.contato button {
         width: 100px;
+    }
+
+    div.conteudo-card{
+        margin: 0px;
+        width: 280px;
     }
 }
