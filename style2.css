@@ -255,16 +255,18 @@
 }
 
 @media screen and (max-width: 560px) {
-   
-    section.cases-de-sucesso {
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
 
-    .conteudo-banner {
+    #sobre{
+        padding: 0px 0px 20px;
+    }
+    .banner-formulario{
+        height: 800px;
+        margin: 50px 0px 0px 0px;
+    }
+    .banner-controles{
+        margin: 0;
+    }
+     .conteudo-banner {
         width: 60%;
     }
 
@@ -275,6 +277,24 @@
     .conteudo-banner img {
         width: 200px;
     }
+    section.cases-de-sucesso {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato{
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    footer .container-grid{
+        padding: 100px 30px;
+    }
+
+  
 }
 
 @media screen and (max-width: 480px) {
@@ -297,6 +317,10 @@
 }
 
 @media screen and (max-width: 320px) {
+
+    nav.menu{
+        width: 300px;
+    }
     section#contato{
         margin-top: 20px;
     }
