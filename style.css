@@ -95,7 +95,7 @@ header .container-grid button{
 }
 
 .conteudo-banner {
-    margin-top: 100px;
+    margin-top: 150px;
     display: flex;
    align-items: center;
 
@@ -103,13 +103,13 @@ header .container-grid button{
 }
 
 .conteudo-banner img{
-    width: 350px;
+    width: 250px;
 }
 
 .conteudo-banner span{
     color: var(--branco-faiup);
 font-family:  'Staatliches';
-font-size: 48px;
+font-size: 36px;
 }
 
 
@@ -138,6 +138,7 @@ h2{
     max-height: 700px;
     margin: 0 auto;
     border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.336);
    
 
 
@@ -194,7 +195,10 @@ h2{
 .botao-portfolio:hover{
     height: 60px;
     width: 220px;
+    font-size: 18px;
 }
+
+
 
 
 .cases-de-sucesso{
@@ -213,7 +217,7 @@ h2{
 
 .cards{
     display: flex;
-    margin: 100px 145px;
+    margin: 10px 145px;
 
 }
 
@@ -228,6 +232,7 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.336);
 }
 
 .card img{
@@ -274,11 +279,22 @@ h2{
     background-attachment: fixed;
     position: relative;
     height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.filtro h2{
+    color:#E7EFF1;
+    text-align: center;
+    font-size: 36px;
+    padding: 0px;
+    margin-left: 40px;
 }
 
 .nuvem-banner-controles{
+ 
     position: absolute;
-    top: -100px;
+    top: -150px;
     left: -200px;
 }
 
@@ -386,15 +402,18 @@ textarea{
     font-family: 'Staatliches';
     font-size: 17px;
     font-weight: 600;
-    color:#959A9C;
-   background-color: #E7EFF1;
-    border: none;
+    color:#ffffff;
+   background-color: #67244f;
+    border: 1px solid white;
     border-radius: 4px;
-    text-transform: uppercase;
     cursor: pointer;
     margin-top: 15px;
   
   }
+  .contato button:hover{
+    background-color:#5f234b ;
+  }
+
 
 .nuvem-formulario{
     width: 600px;
