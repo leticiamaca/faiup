@@ -116,7 +116,7 @@ font-size: 36px;
 
 #sobre {
     padding-bottom: 50px;
-    width: 98vw;
+    width: 100vw;
     margin: 0 auto;
     border-radius: 10px;
     position: relative;
@@ -183,6 +183,7 @@ h2{
     background: linear-gradient(90deg, rgba(231, 239, 241, 0.318) 0%, rgba(231, 239, 241, 0.077)100%);
     width: 200px;
     height: 50px;
+    transition: ease-in-out 500ms;
 }
 
 .botao-portfolio a{
@@ -196,6 +197,7 @@ h2{
     height: 60px;
     width: 220px;
     font-size: 18px;
+    transition: ease 500ms;
 }
 
 
@@ -281,6 +283,7 @@ h2{
     height: 300px;
     display: flex;
     align-items: center;
+    z-index: -1;
 }
 
 .filtro h2{
@@ -292,7 +295,7 @@ h2{
 }
 
 .nuvem-banner-controles{
- z-index: -1;
+ z-index: 0;
     position: absolute;
     top: -150px;
     left: -200px;
@@ -347,7 +350,7 @@ align-items: center;
     margin-bottom: 50px;
     text-align: left;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -365,7 +368,7 @@ align-items: center;
     font-family: 'Staatliches';
     font-size: 17px;
     border-radius: 10px;
-    margin: 0px 10px;
+    margin: 5px 0px;
   }
 
   .campo label{
@@ -407,7 +410,6 @@ textarea{
     border: 1px solid white;
     border-radius: 4px;
     cursor: pointer;
-    margin-top: 15px;
   
   }
   .contato button:hover{
