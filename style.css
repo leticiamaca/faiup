@@ -57,6 +57,8 @@ header .container-grid button{
     display: none;
 }
 
+
+
 .menu{
     padding: 2px;
     background: linear-gradient(90deg, rgba(231, 239, 241, 0.286) 0%, rgba(231, 239, 241, 0.095)100%);
@@ -112,7 +114,13 @@ font-family:  'Staatliches';
 font-size: 36px;
 }
 
+.menu-fechado {
+    display: none;
+}
 
+#icones-menos{
+    display: none;
+} 
 
 #sobre {
     padding-bottom: 50px;

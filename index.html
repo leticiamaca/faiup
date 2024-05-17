@@ -16,7 +16,7 @@
         <header>
             <div class="container-grid">
 
-                <nav class="menu">
+                <nav class="menu" id="menu">
                     <a href="home"><svg width="70" height="132" viewBox="0 0 70 132" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1.82405 54.742L41.1263 0.999992L29.1403 36.2851L1.82405 54.742Z" fill="#E8F0F2" stroke="#E8F0F2"/>
                         <path d="M37.3469 58.69L40.2052 3.08286L32.0095 36.0693L37.3469 58.69Z" fill="#E8F0F2" stroke="#E8F0F2" stroke-width="2"/>
@@ -27,10 +27,13 @@
                     <a href="#">Portfólio</a>
                     <a href="#contato">Contato</a>
                 </nav>
-                <button><?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-                    <svg width="800px" height="800px" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                <button onclick="abrirFecharMenu()"><?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <svg id="icone-barras" width="70" height="132" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4 6H20M4 12H20M4 18H20" stroke="#ffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg></button>
+                    </svg>
+                    <svg id="icones-menos" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>
+                </button>
+
             </div>
         </header>
         <div class="conteudo-banner">
@@ -187,7 +190,7 @@
     </div>
     <p class="copyright">@ 2024 copyright</p>
     </footer>
-
+<script src="script.js"></script>
 </body>
 
 </html>
