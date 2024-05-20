@@ -96,6 +96,9 @@
     .banner{
         height: 65vh;
     }
+    .primeiro-banner{
+        height: 65vh;
+    }
   
     div.conteudo-banner {
         margin: 0 auto;
@@ -132,6 +135,7 @@
         background: unset;
         background-image: linear-gradient(90deg, rgba(31, 13, 65, 0.9) 0%, rgba(31, 13, 65, 0.9) 0%, rgba(112, 42, 87, 0.9) 100%);
         border: 2px solid white;
+        z-index: 1;
 
 
 
@@ -144,12 +148,16 @@
     #sobre{
         position: unset;
     }
-
+    #botao-anterior, #botao-proximo{ 
+        top:30%;}
 
 }
 
 @media screen and (max-width: 680px) {
     .banner{
+        height: 55vh;
+    }
+    .primeiro-banner{
         height: 55vh;
     }
     header{
@@ -211,6 +219,7 @@
     .termos-e-condicoes {
         font-size: 16px;
     }
+    
 }
 
 @media screen and (max-width: 650px) {

@@ -14,7 +14,8 @@
 :root{
     --branco-faiup: #E7EFF1;
     --roxo-faiup: #1F0D41;
-    --rosa-faiup: #702A57
+    --rosa-faiup: #702A57;
+    --laranja-faiup: rgb(165, 93, 82);
 
 }
 
@@ -39,6 +40,34 @@ body{
     background-position: 50% 20%;
     background-size: auto;
 }
+
+.primeiro-banner{
+    height: 100vh;
+    background-color: #1F0D41;
+    background-image:linear-gradient(90deg, rgba(31,13,65,0.9) 0%, rgba(112,42,87,0.9) 0%, rgba(165,93,82,0.5) 100%), url(img/banner2.png);
+}
+
+#botao-anterior, #botao-proximo{ 
+    top:50%;
+    width: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+  }
+  
+  #botao-anterior{
+   
+    left: 7%;
+  }
+  
+  #botao-proximo{
+    right: 7%;
+  }
+  
+  #botao-anterior svg, #botao-proximo svg{
+    fill: #ffffff76;
+  }
 
 
 header{
@@ -393,7 +422,7 @@ align-items: center;
 
 .campo-textarea
 textarea{
-    color: white;
+    color: grey;
     background-color: #ffffff;
     border: none;
     border-radius: 4px;
