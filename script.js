@@ -15,7 +15,7 @@ const abrirFecharMenu = () => {
 };
 
 
-//fazer depois
+
 let slides = ["banner", "primeiro-banner"]
 let slideAtual = 0;
 
