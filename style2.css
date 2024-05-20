@@ -95,9 +95,11 @@
 @media screen and (max-width: 790px) {
     .banner{
         height: 65vh;
+        background-size: cover;
     }
     .primeiro-banner{
         height: 65vh;
+        background-size: cover;
     }
   
     div.conteudo-banner {
@@ -156,9 +158,11 @@
 @media screen and (max-width: 680px) {
     .banner{
         height: 55vh;
+        background-size: cover;
     }
     .primeiro-banner{
         height: 55vh;
+        background-size: cover;
     }
     header{
         display: unset;
@@ -229,7 +233,7 @@
     }
 
     .conteudo-secao-sobre .container-grid img {
-        width: 50%;
+        width: 40%;
     }
 
     .cards {
@@ -307,6 +311,13 @@
 }
 
 @media screen and (max-width: 480px) {
+    nav.menu{
+        width: 230px;
+    }
+    
+    .conteudo-banner span{
+        font-size:16px ;
+    }
 
 
     .redes-sociais {
